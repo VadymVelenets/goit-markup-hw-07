@@ -100,7 +100,7 @@ button {
 .link-two:focus .text-about-app {
   transform: translateY(0%);
 }
-.link::after {
+.nav-active::after {
   content: '';
   position: absolute;
   left: 0;
