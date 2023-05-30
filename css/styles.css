@@ -1,4 +1,11 @@
 :root {
+  --primary-color: #434455;
+  --secondary-color: #2e2f42;
+  --primary-background: #ffffff;
+  --button-color: #4d5ae5;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --hover-focus: #404bbf;
+  --button-color: #4d5ae5;
 }
 /* Body */
 body {
@@ -7,7 +14,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
@@ -1252,7 +1258,7 @@ button {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    color: var(--secondary-color);
+    color: #2e2f42;
   }
   .qualities {
     padding-top: 96px;
@@ -1360,7 +1366,7 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--secondary-color);
+    color: #2e2f42;;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
